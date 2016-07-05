@@ -22,3 +22,5 @@ tweet
 methods //send to a specific frame K.send(to, "event", callback); //send to all frame created and recursive to their own frame K.broadcast(event, msg, callback);
 
 params for callback //@param object K instance of Kagami.Controller //@param string from frame id //@param json data response callback expected params function(K,from, data);
+
+##
